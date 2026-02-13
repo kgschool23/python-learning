@@ -2,7 +2,9 @@
 #          use 'import' to include a module
 #          useful to break up a large program into reusable separate files
 
-# import math as m
-from math import pi as p
+import example
 
-print(math.p)
+result = example.pi
+result = example.square(3)
+
+print(result)
